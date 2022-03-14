@@ -18,7 +18,7 @@ for (alphabt = 'a'; alphabt <= 'z'; alphabt++)
 	putchar(alphabt);
 }
 
-putchat('\n');
+putchar('\n');
 
 return (0);
 }
