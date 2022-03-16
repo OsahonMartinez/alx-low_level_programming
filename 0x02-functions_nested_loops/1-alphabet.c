@@ -2,7 +2,7 @@
 /**
  * main - Print the alphabets
  *
- * Return: Always 0 (success)
+ * Return: Always (success)
  */
 int main(void)
 {
@@ -15,4 +15,5 @@ int main(void)
 
 	_putchar('\n');
 
+	return (0);
 }
