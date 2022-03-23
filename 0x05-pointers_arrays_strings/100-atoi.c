@@ -13,7 +13,7 @@ int is_numerical(unsigned int n)
 
 
  /**
- * _atoi - convert a string to an integer
+ * _atoi -convert a string to an integer
  * @s: String
  * Return: Return the number
  */
