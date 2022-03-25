@@ -3,7 +3,6 @@
 /**
  * leet - Encode string into 1337
  * @s: string
- *
  * Return: the string
  */
 
