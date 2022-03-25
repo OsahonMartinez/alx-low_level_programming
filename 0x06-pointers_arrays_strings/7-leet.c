@@ -13,7 +13,7 @@ char *leet(char *s)
 	char n[] = "4433007711";
 
 /* scan through string */
-	i = 0
+	i = 0;
 	while (s[i] != '\0')
 /* check whether letters(char r) is found */
 	{
@@ -23,7 +23,7 @@ char *leet(char *s)
 		{
 			if (r[j] == s[i])
 			{
-				s[i] = sn[j];
+				s[i] = n[j];
 			}
 
 			j++;
