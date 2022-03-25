@@ -5,7 +5,7 @@
  * Return: Char value
  */
 
-char cap_string(char *str)
+char *cap_string(char *str)
 {
 	int a = 0, i;
 	int cspc = 13;
