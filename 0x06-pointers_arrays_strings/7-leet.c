@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,25 +8,28 @@
 
 char *leet(char *s)
 {
-	int a = 0, b = 0, l = 5;
-	char r[5] = {'A', 'E', '0', 'T', 'L'};
-	char n[5] = {'4', '3', '0', '7', '1'};
+	int i, j;
+	char r[] = "aAeEoOtTlL";
+	char n[] = "4433007711";
 
-	while (s[a])
+/* scan through string */
+	i = 0
+	while (s[i] != '\0')
+/* check whether letters(char r) is found */
 	{
-		b = 0;
+		j = 0;
 
-		while (b < l)
+		while (j < 10)
 		{
-			if (s[a] == r[b] || s[a] -32 == r[b])
+			if (r[j] == s[i])
 			{
-				s[a] =n[b];
+				s[i] = sn[j];
 			}
 
-			b++;
+			j++;
 		}
 
-		a++;
+		i++;
 	}
 
 	return (s);
