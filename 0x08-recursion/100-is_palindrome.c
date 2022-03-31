@@ -4,7 +4,7 @@
  * @s: pointer to string
  * Return: lenght of string
  */
-int_strlen_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	if (*s)
 	{
