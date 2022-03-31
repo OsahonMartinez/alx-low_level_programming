@@ -14,11 +14,11 @@ int_strlen_recursion(char *s)
 }
 
 /**
- * helperFunction - check if palidrome
+ * helperFunction - check if palindrome
  * @s: pointer to a string
  * @fi: first index
  * @li: last index
- * Return: 0 if not palidrom, 1 if palidrome
+ * Return: 0 if not palindrome, 1 if palindrome
  */
 int helperFunction(char *s, int fi, int li)
 {
@@ -34,11 +34,11 @@ int helperFunction(char *s, int fi, int li)
 }
 
 /**
- * is_palidrome - checks if string is palidrome or not
+ * is_palindrome - checks if string is palindrome or not
  * @s: pointer to string
- * Return: 1 if string is palidrome 0 if not palidrome
+ * Return: 1 if string is palindrome 0 if not palindrome
  */
-int is_palidrome(char *s)
+int is_palindrome(char *s)
 {
 	int fi, li;
 
