@@ -11,10 +11,13 @@ int helperFunction(int num, int pSqrt)
 	{
 		return (pSqrt);
 	}
-	else if ((pSqrt * pSqrt) > num)
+	else
+	{
+		if ((pSqrt * pSqrt) > num)
 				return (-1);
 	else
 		return (helperFunction(num, pSqrt + 1));
+	}
 }
 				
 /**
