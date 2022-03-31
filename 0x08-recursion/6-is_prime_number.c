@@ -1,5 +1,7 @@
 #include "main.h"
 
+int helperFunction(int num, int i);
+
 /**
  * is_prime_number - returns if a number is prime
  * @n: the number to be checked
@@ -7,33 +9,33 @@
  */
 int is_prime_number(int n)
 {
-	if (n <= 1)
+	if (num <= 1)
 	{
 		return (0);
 	}
 	else
 	{
-	return (check_prime(n, 2));
+		return (helperFunction(n, 2));
 	}
 }
 
 /**
- * check_prime - Check if number is prime
- * @n: the number
+ * helperFunction - Check if number is prime
+ * @num: the number
  * @i: the iteration times
  * Return: 1 for prime or 0 for composite
  */
-int check_prime(int n, int i)
+int helperFunction(int num, int i)
 {
-	if (n < 1)
+	if (i < num)
 	{
-		if (n % i == 0)
+		if (num % i == 0)
 		{
-		return (0);
+			return (0);
 		}
 		else
 		{
-			return (check_prime(num, i + 1));
+			return (helperFunction(num, i + 1));
 		}
 	}
 	else
