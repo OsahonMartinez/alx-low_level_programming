@@ -11,8 +11,8 @@ int main(int argc, char *argv[])
 	(void)argv;
 
 	for (i = 0; i < argc - 1; i++)
-	{
-		printf("argc = %d\n", argc);
-		return (0);
-	}
+	{}
+
+	printf("argc = %d\n", argc);
+	return (0);
 }
