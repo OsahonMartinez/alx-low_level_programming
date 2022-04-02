@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - prints result of multiplication followed by a new line
+ * @argc: number of arguments passsed
+ * @argv: array of size argc containing arguments
+ * Return: 0
+ */
+int main(int argc, chat *argv[])
+{
+	int count, product;
+
+	product = 1;
+	if (argc == 3)
+	{
+		for (count = 1; count < argc; count++)
+		{
+			product *= atoi(argv[count]);
+		}
+		printf("%d\n", product);
+	}
+	else
+	{
+		printf("Error\n");
+	}
+
+	return (0);
+}
