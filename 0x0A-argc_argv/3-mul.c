@@ -4,7 +4,8 @@
  * main - prints result of multiplication followed by a new line
  * @argc: number of arguments passsed
  * @argv: array of size argc containing arguments
- * Return: 0
+ * Return: 0 success
+ * 1 on error.
  */
 int main(int argc, chat *argv[])
 {
@@ -22,6 +23,7 @@ int main(int argc, chat *argv[])
 	else
 	{
 		printf("Error\n");
+		return (1);
 	}
 
 	return (0);
