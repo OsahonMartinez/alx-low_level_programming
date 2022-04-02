@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int count, count2, sum;
 
-	sum = 2;
+	sum = 0;
 
 	if (argc < 2)
 	{
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 			if (argv[count][count2] < '0' || argv[count][count2] > '9')
 			{
 				printf("Error\n");
-				return(1);
+				return (1);
 			}
 		}
 		sum += atoi(argv[count]);
