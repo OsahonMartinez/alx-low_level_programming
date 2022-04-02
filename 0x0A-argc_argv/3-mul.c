@@ -7,7 +7,7 @@
  * Return: 0 success
  * 1 on error.
  */
-int main(int argc, chat *argv[])
+int main(int argc, char *argv[])
 {
 	int count, product;
 
