@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
  * create_array - creates an array of char and initializes it with
  * a speccific char
@@ -7,7 +7,7 @@
  * @c: char to initialize
  * Return: NULL if it fails or Pointer to array
  */
-char *creatwe_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *arr;
 	unsigned int i;
