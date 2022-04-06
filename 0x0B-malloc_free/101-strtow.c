@@ -72,12 +72,12 @@ char **strtow(char *str)
 	if (str == NULL || str[0] == '\0')
 		return (0);
 	wordno = wordnos(str);
-	s = (char **)malloc(sizepf(char *) * (wordno + 1));
+	s = (char **)malloc(sizeof(char *) * (wordno + 1));
 	if (s == 0 || wordno == 0)
 		return (0);
 	i = 0;
 	idx = 0;
-	while (*(str + i) != '\0)
+	while (*(str + i) != '\0')
 	{
 		if (*(str + i) != 32 && *(str + i) != '\0')
 		{
