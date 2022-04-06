@@ -8,23 +8,23 @@
  */
 int wordnos(char *str)
 {
-	int wordno, i, j;
+	int wordnos, i, j;
 
-	wordno = 0;
+	wordnos = 0;
 	i = 0;
 	while (*(str + i) != '\0')
 	{
 		if (*(str + i) != 32 && *(str + i) != '\0')
 		{
 			j = i;
-			while (*(str + j) != 32 &&*(str + j) != '\0')
+			while (*(str + j) != 32 && *(str + j) != '\0')
 				j++;
-			wordno++;
+			wordnos++;
 			i = j - 1;
 		}
 		i++;
 	}
-	return (wordno);
+	return (wordnos);
 }
 
 /**
