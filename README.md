@@ -1,1 +1,1 @@
-This is a file or project about the basics of  programming language on Linux or Unix
+This is a file or project about C programming language as a low level programming language
