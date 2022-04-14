@@ -23,8 +23,8 @@ int op_sub(int a, int b)
 
 /**
  * op_mul - returns the product of 2 numbers
- * @a: ....
- * @b: ...
+ * @a: integer
+ * @b: integer
  * Return: product
  */
 int op_mul(int a, int b)
@@ -35,7 +35,7 @@ int op_mul(int a, int b)
 /**
  * op_div - return the quotient of 2 numbers
  * @a: integer
- * @b: ...
+ * @b: integer
  * Return: quotient
  */
 int op_div(int a, int b)
@@ -50,8 +50,8 @@ int op_div(int a, int b)
 
 /**
  * op_mod - returns the remainder if division
- * @a: ...
- * @b: ...
+ * @a: integer
+ * @b: integer
  * Return: remainder
  */
 int op_mod(int a, int b)
