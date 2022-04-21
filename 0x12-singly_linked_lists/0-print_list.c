@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
 /**
  * print_lists - prints the lists of elements
@@ -9,8 +7,9 @@
  */
 size_t print_lists(const list_t *h)
 {
-	int count = 0;
+	size_t count;
 
+	count = 0;
 	while (h != NULL)
 	{
 		if (h->str == NULL)
