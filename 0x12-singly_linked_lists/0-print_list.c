@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+
 /**
  * print_list - prints the lists of elements
  * @h: pointer to the listd
