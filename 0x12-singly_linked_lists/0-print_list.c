@@ -4,9 +4,11 @@
 /**
  * print_list - prints the lists of elements
  * @h: pointer to the listd
- * if str is NULL print [0] (nil)
+ *
+ * Description: prints all the elements of a list_t list
  * Return: The number of nodes
  */
+
 size_t print_list(const list_t *h)
 {
 	size_t count;
