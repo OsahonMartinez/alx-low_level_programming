@@ -1,15 +1,15 @@
-global main
-extern printf
+SECTION .data
+msg: db "Hello, Holberton", 0
+fmt: db "%s", 10, 0
 
-	selection .text
+	SECTION .text
+	global main
+	extern printf
 main:
-	push rbp
-	mov rdi, format
-	mov rsi, message
-	mov rax, 0
+	mov esi, msg
+	mov edi, fmt
+	mov eax, 0
 	call printf
-	pop rbp
-	mov rax, 0
+
+	move eax, 0
 	ret
-meassage: db "Hello, Holberton", 0
-format: db "%s", 10, 0
